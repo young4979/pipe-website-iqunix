@@ -84544,12 +84544,10 @@ r=h?k:i.c
 if(r==null)r=0
 q=l.a.c.x
 r=B.c.ar(r/q*100)
-p=h?k:i.e
+p=h?k:i.c
 p=B.c.ar((p==null?0:p)/q*100)
-o=h?k:i.c
-o=B.c.ar((o==null?0:o)/q*100)
-n=h?k:i.e
-r=A.e4(A.aX("\u952e\u8f74\u9876\u90e8\u7684\u8bbe\u7f6e "+A.k((r+p)/100)+"mm \u884c\u7a0b\uff0cRT\u529f\u80fd\u5c06\u4f1a\u5728 "+A.k((o+B.c.ar((n==null?0:n)/q*100))/100)+"mm \u540e\u751f\u6548;\u5173\u95ed\u540e\u5c06\u4f1a\u4ece\u6781\u9650\u4f4d\u7f6e\u5f00\u59cb\u8ba1\u7b97RT\u884c\u7a0b",k,k,k,k,k,k,k),1)
+o=h?k:i.e
+r=A.e4(A.aX("\u952e\u8f74\u9876\u90e8\u7684\u8bbe\u7f6e "+A.k(r/100)+"mm \u884c\u7a0b\uff0cRT\u529f\u80fd\u5c06\u4f1a\u5728 "+A.k((p+B.c.ar((o==null?0:o)/q*100))/100)+"mm \u540e\u751f\u6548;\u5173\u95ed\u540e\u5c06\u4f1a\u4ece\u6781\u9650\u4f4d\u7f6e\u5f00\u59cb\u8ba1\u7b97RT\u884c\u7a0b",k,k,k,k,k,k,k),1)
 q=h?k:i.r
 i=(h?k:i.a)===0?k:new A.alw(l)
 h=t.p
@@ -84755,9 +84753,9 @@ $0(){},
 $S:0}
 A.alT.prototype={
 $1(a){var s=this.a,r=s.a.c,q=r.x
-if(a/q<0.1)a=0.1*q
+if(a/q<0.05)a=0.05*q
 else{r=r.w
-if((r-a)/q<0.1)a=r-0.1*q}r=s.z
+if((r-a)/q<0.05)a=r-0.05*q}r=s.z
 if(r!=null)r.c=B.c.ar(a)
 s.a_(new A.alS())},
 $S:34}
@@ -84771,9 +84769,9 @@ var $async$$1=A.S(function(b,c){if(b===1)return A.O(c,r)
 while(true)switch(s){case 0:o=q.a
 n=o.a.c
 m=n.x
-if(a/m<0.1)a=0.1*m
+if(a/m<0.05)a=0.05*m
 else{n=n.w
-if((n-a)/m<0.1)a=n-0.1*m}n=o.z
+if((n-a)/m<0.05)a=n-0.05*m}n=o.z
 if(n!=null)n.c=B.c.ar(a)
 s=o.y?2:4
 break
@@ -84797,9 +84795,9 @@ $0(){},
 $S:0}
 A.alV.prototype={
 $1(a){var s=this.a,r=s.a.c,q=r.x
-if(a/q<0.1)a=0.1*q
+if(a/q<0.05)a=0.05*q
 else{r=r.w
-if((r-a)/q<0.1)a=r-0.1*q}r=s.z
+if((r-a)/q<0.05)a=r-0.05*q}r=s.z
 if(r!=null)r.e=B.c.ar(a)
 s.a_(new A.alQ())},
 $S:34}
@@ -84813,9 +84811,9 @@ var $async$$1=A.S(function(b,c){if(b===1)return A.O(c,r)
 while(true)switch(s){case 0:o=q.a
 n=o.a.c
 m=n.x
-if(a/m<0.1)a=0.1*m
+if(a/m<0.05)a=0.05*m
 else{n=n.w
-if((n-a)/m<0.1)a=n-0.1*m}n=o.z
+if((n-a)/m<0.05)a=n-0.05*m}n=o.z
 if(n!=null)n.e=B.c.ar(a)
 s=o.y?2:4
 break
@@ -84839,9 +84837,9 @@ $0(){},
 $S:0}
 A.alX.prototype={
 $1(a){var s=this.a,r=s.a.c,q=r.x
-if(a/q<0.1)a=0.1*q
+if(a/q<0.05)a=0.05*q
 else{r=r.w
-if((r-a)/q<0.1)a=r-0.1*q}r=s.z
+if((r-a)/q<0.05)a=r-0.05*q}r=s.z
 if(r!=null)r.d=B.c.ar(a)
 s.a_(new A.alO())},
 $S:34}
@@ -84855,9 +84853,9 @@ var $async$$1=A.S(function(b,c){if(b===1)return A.O(c,r)
 while(true)switch(s){case 0:o=q.a
 n=o.a.c
 m=n.x
-if(a/m<0.1)a=0.1*m
+if(a/m<0.05)a=0.05*m
 else{n=n.w
-if((n-a)/m<0.1)a=n-0.1*m}n=o.z
+if((n-a)/m<0.05)a=n-0.05*m}n=o.z
 if(n!=null)n.d=B.c.ar(a)
 s=o.y?2:4
 break
@@ -84881,9 +84879,9 @@ $0(){},
 $S:0}
 A.alL.prototype={
 $1(a){var s=this.a,r=s.a.c,q=r.x
-if(a/q<0.1)a=0.1*q
+if(a/q<0.05)a=0.05*q
 else{r=r.w
-if((r-a)/q<0.1)a=r-0.1*q}r=s.z
+if((r-a)/q<0.05)a=r-0.05*q}r=s.z
 if(r!=null)r.f=B.c.ar(a)
 s.a_(new A.alK())},
 $S:34}
@@ -84897,9 +84895,9 @@ var $async$$1=A.S(function(b,c){if(b===1)return A.O(c,r)
 while(true)switch(s){case 0:o=q.a
 n=o.a.c
 m=n.x
-if(a/m<0.1)a=0.1*m
+if(a/m<0.05)a=0.05*m
 else{n=n.w
-if((n-a)/m<0.1)a=n-0.1*m}n=o.z
+if((n-a)/m<0.05)a=n-0.05*m}n=o.z
 if(n!=null)n.f=B.c.ar(a)
 s=o.y?2:4
 break
