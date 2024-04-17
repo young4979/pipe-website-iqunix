@@ -28383,20 +28383,22 @@ q=s[1]
 s=s[2]
 p=b[2]
 return A.a([o*m+l*k+j*n,o*r+l*q+j*s,o*p[0]+l*p[1]+j*p[2]],t.n)},
-aNM(a){var s,r,q,p,o,n=t.N,m=t.dZ,l=A.D(n,m)
+aNM(a){var s,r,q,p,o,n,m=t.N,l=t.dZ,k=A.D(m,l)
 switch(a.z.a){case 2:s=a.f
 r=a.e
 q=t.UY
-p=A.am(["keyboard_function",A.am(["\u7a7a\u767d\u952e",$.aAQ(),"\u4e3b\u952e\u533a_\u5b57\u6bcd",$.aAK(),"\u4e3b\u952e\u533a_\u6570\u5b57",$.aAJ(),"\u4e3b\u952e\u533a\u7b26\u53f7\u548c\u529f\u80fd\u952e",$.aAF(),"F\u533a\u57df",$.aAG(),"\u4fee\u9970\u952e",$.aAH(),"\u529f\u80fd\u533a",$.aAI(),"NumPad",$.aAP(),"iso",$.aAN(),"isoKR",$.aAM()],n,q),"media",A.am(["",$.aAO()],n,q),"profile",A.am(["",A.aEI(s)],n,q),"layer",A.am(["",A.aEH(r)],n,q),"extend",A.am(["",$.aAL()],n,q)],n,m)
-l=p
+p=A.am(["keyboard_function",A.am(["\u7a7a\u767d\u952e",$.aAQ(),"\u4e3b\u952e\u533a_\u5b57\u6bcd",$.aAK(),"\u4e3b\u952e\u533a_\u6570\u5b57",$.aAJ(),"\u4e3b\u952e\u533a\u7b26\u53f7\u548c\u529f\u80fd\u952e",$.aAF(),"F\u533a\u57df",$.aAG(),"\u4fee\u9970\u952e",$.aAH(),"\u529f\u80fd\u533a",$.aAI(),"NumPad",$.aAP(),"iso",$.aAN(),"isoKR",$.aAM()],m,q),"media",A.am(["",$.aAO()],m,q),"profile",A.am(["",A.aEI(s)],m,q),"layer",A.am(["",A.aEH(r)],m,q),"extend",A.am(["",$.aAL()],m,q)],m,l)
+k=p
 break
 case 0:case 1:s=a.e
 r=a.Q
 o=A.aFN(s)
 s=t.UY
-p=A.am(["base",A.am(["\u7a7a\u767d\u952e",$.aBb(),"\u4e3b\u952e\u533a_\u5b57\u6bcd",$.aB0(),"\u4e3b\u952e\u533a_\u6570\u5b57",$.aB_(),"\u4e3b\u952e\u533a\u7b26\u53f7\u548c\u529f\u80fd\u952e",$.aAW(),"F\u533a\u57df",$.aAX(),"\u6269\u5c55F\u533a",$.aB1(),"\u4fee\u9970\u952e",$.aAY(),"\u529f\u80fd\u533a",$.aAZ(),"NumPad",$.aB7(),"iso",$.aB3(),"isoKR",$.aB2(),"Shift\u7b26\u53f7",$.aB8()],n,s),"media",A.am(["\u7cfb\u7edf",$.aBa(),"\u7cfb\u7edf\u8f6f\u4ef6",$.aAV(),"\u591a\u5a92\u4f53",$.aB5()],n,s),"mouse",A.am(["",$.aB6()],n,s),"others",A.am(["\u9501\u5b9a",$.aB4(),"\u9ad8\u7ea7\u6309\u952e",$.aB9()],n,s),"layer",A.am(["",o],n,s),"customize",A.am(["",A.aFM(r)],n,s)],n,m)
-l=p
-break}return l},
+p=A.am(["base",A.am(["\u7a7a\u767d\u952e",$.aBb(),"\u4e3b\u952e\u533a_\u5b57\u6bcd",$.aB0(),"\u4e3b\u952e\u533a_\u6570\u5b57",$.aB_(),"\u4e3b\u952e\u533a\u7b26\u53f7\u548c\u529f\u80fd\u952e",$.aAW(),"F\u533a\u57df",$.aAX(),"\u6269\u5c55F\u533a",$.aB1(),"\u4fee\u9970\u952e",$.aAY(),"\u529f\u80fd\u533a",$.aAZ(),"NumPad",$.aB7(),"iso",$.aB3(),"isoKR",$.aB2(),"Shift\u7b26\u53f7",$.aB8()],m,s),"media",A.am(["\u7cfb\u7edf",$.aBa(),"\u7cfb\u7edf\u8f6f\u4ef6",$.aAV(),"\u591a\u5a92\u4f53",$.aB5()],m,s),"mouse",A.am(["",$.aB6()],m,s),"others",A.am(["\u9501\u5b9a",$.aB4(),"\u9ad8\u7ea7\u6309\u952e",$.aB9()],m,s),"layer",A.am(["",o],m,s)],m,l)
+n=A.aFM(r)
+if(n.length!==0)p.q(0,"customize",A.am(["",n],m,s))
+k=p
+break}return k},
 aDH(a){var s,r,q,p=A.a([],t.a)
 switch(a.z.a){case 2:s=a.f
 r=a.e
@@ -100910,8 +100912,8 @@ r($,"aYh","aB8",()=>{var q=null
 return A.a([A.k(q,565,q,"~","",q),A.k(q,542,q,"!","",q),A.k(q,543,q,"@","",q),A.k(q,544,q,"#","",q),A.k(q,545,q,"$","",q),A.k(q,546,q,"%","",q),A.k(q,547,q,"^","",q),A.k(q,548,q,"&","",q),A.k(q,549,q,"*","",q),A.k(q,550,q,"(","",q),A.k(q,551,q,")","",q),A.k(q,557,q,"_","",q),A.k(q,558,q,"+","",q),A.k(q,559,q,"{","",q),A.k(q,560,q,"}","",q),A.k(q,566,q,"<","",q),A.k(q,567,q,">","",q),A.k(q,563,q,":","",q),A.k(q,561,q,"|","",q),A.k(q,568,q,"?","",q),A.k(q,564,q,'"',"",q)],t.a)})
 r($,"aYe","aB5",()=>{var q=null
 return A.a([A.k(q,172,B.qp,"Media\nPrev","\u4e0a\u4e00\u66f2",q),A.k(q,171,B.qo,"Media\nNext","\u4e0b\u4e00\u66f2",q),A.k(q,168,B.qt,"Mute","\u9759\u97f3",q),A.k(q,170,B.qs,"Vol -","\u964d\u4f4e\u97f3\u91cf",q),A.k(q,169,B.qu,"Vol +","\u63d0\u9ad8\u97f3\u91cf",q),A.k(q,173,q,"\u5a92\u4f53\u505c\u6b62","",q),A.k(q,174,B.LT,"Media\nPlay","\u64ad\u653e/\u6682\u505c",q),A.k(q,188,q,"Prev\nTrack\n(macOS)","Previous Track / Rewind (macOS)",q),A.k(q,187,q,"Next\nTrack\n(macOS)","Next Track / Fast Forward (macOS)",q),A.k(q,175,q,"Media\nPlayer","Launch Media Player (Windows)",q),A.k(q,176,q,"Eject","Eject (macOS)",q)],t.a)})
-r($,"aYi","aB9",()=>{var q=null
-return A.a([A.k(q,31766,q,"Esc\n~","Esc normally, but ~ when Shift or GUI is pressed",q),A.k(q,31744,q,"Reset","Reset the keyboard",q),A.k(q,31746,q,"Debug","Toggle debug mode",q),A.k(q,28691,q,"Toggle NKRO","",q),A.k(q,153,q,"Alt Erase","",q)],t.a)})
+r($,"aYi","aB9",()=>{var q=null,p="Clear eeprom"
+return A.a([A.k(q,31766,q,"Esc\n~","Esc normally, but ~ when Shift or GUI is pressed",q),A.k(q,31744,q,"Reset","Reset the keyboard",q),A.k(q,31746,q,"Debug","Toggle debug mode",q),A.k("EE_CLR",31747,q,p,p,q),A.k(q,28691,q,"Toggle NKRO","",q),A.k(q,153,q,"Alt Erase","",q)],t.a)})
 r($,"aYd","aB4",()=>{var q=null
 return A.a([A.k(q,130,q,"Locking\nCaps","Locking Caps Lock",q),A.k(q,131,q,"Locking\nNum","Locking Num Lock",q),A.k(q,132,q,"Locking\nScroll","Locking Scroll Lock",q)],t.a)})
 r($,"aYa","aB1",()=>{var q=null
