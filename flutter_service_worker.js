@@ -3,11 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "ba8ae6e1a50914f815c5286b4659c5d3",
-"assets/AssetManifest.bin.json": "293ae59d28af2913b3a286bc673b7652",
-"assets/AssetManifest.json": "d2b2c454086bd7a4ff3eb8537a4553b9",
+const RESOURCES = {"assets/AssetManifest.bin": "ed266ceed72737715b27436b2af3f208",
+"assets/AssetManifest.bin.json": "80221480cd63572bb05630ab6f51a825",
+"assets/AssetManifest.json": "060c3691cf4ee0cdddfe1229086ad941",
 "assets/assets/deviceProfiles/0B98_CAFE.json": "7e880829b4139c299de2411d9a47495a",
-"assets/assets/deviceProfiles/8004_CAFE.json": "7e13f046369c8b86a9afb96944e3e336",
+"assets/assets/deviceProfiles/8004_CAFE.json": "e26770382056b53681083ef3b3c48a8d",
+"assets/assets/deviceProfiles/8005_CAFE.json": "93664e5ab1f70d723556e589d34ae904",
 "assets/assets/fonts/MiSans-Regular.ttf": "7a19b9504edc93c2d3c285804d1b0ca5",
 "assets/assets/fonts/OpenCherry-Regular.ttf": "bdc7f5967b218280a8c66940f3724f20",
 "assets/assets/images/logo_iqunix.png": "ed2be9db32162ee3824c38c9f20d31f1",
@@ -29,10 +30,10 @@ const RESOURCES = {"assets/AssetManifest.bin": "ba8ae6e1a50914f815c5286b4659c5d3
 "icons/Icon-512.png": "8b154d5eece96babbc2028b6402b0d48",
 "icons/Icon-maskable-192.png": "373170ff478e955c0a920e4d573c7b1d",
 "icons/Icon-maskable-512.png": "8b154d5eece96babbc2028b6402b0d48",
-"index.html": "af6c202f12da612ed0c7308536eb4d49",
-"/": "af6c202f12da612ed0c7308536eb4d49",
-"main.dart.js": "2daf1bc37e9c43bc376ee1091c998ebf",
-"manifest.json": "a51e28450d7535ea881e32d9b41e384d",
+"index.html": "5c0989106c9ae7786badaaed8f0ec7da",
+"/": "5c0989106c9ae7786badaaed8f0ec7da",
+"main.dart.js": "377fa9c91391c439058641fe821d6b8b",
+"manifest.json": "e7eb2d46f84a44b811c5a57e5541e326",
 "version.json": "cd864029e4e5f627fff947c609544b0b"};
 // The application shell files that are downloaded before a service worker can
 // start.
