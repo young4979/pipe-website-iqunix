@@ -3,7 +3,7 @@
     "vendorId": "0xCAFE",
     "productId": "0x8010",
     "keycodes": ["qmk_lighting"],
-    "matrix": { "rows": 8, "cols": 9 },
+    "matrix": { "rows": 8, "cols": 8 },
     "layouts": {
         "keymap": [
             [
