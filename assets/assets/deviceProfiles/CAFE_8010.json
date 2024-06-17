@@ -2,6 +2,28 @@
     "name": "EZ60",
     "vendorId": "0xCAFE",
     "productId": "0x8010",
+    "customKeycodes": [
+      {
+        "name": "win/mac",
+        "title": "win/mac",
+        "shortName": "win/mac"
+      },
+      {
+        "name": "win lock",
+        "title": "win lock",
+        "shortName": "winLk"
+      },
+      {
+        "name": "Siri",
+        "title": "Siri",
+        "shortName": "Siri"
+      },
+      {
+        "name": "DND mode",
+        "title": "DND mode",
+        "shortName": "DND"
+      }
+    ],
     "keycodes": ["qmk_lighting"],
     "matrix": { "rows": 8, "cols": 8 },
     "layouts": {

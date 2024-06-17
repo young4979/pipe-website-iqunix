@@ -6,8 +6,8 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {"assets/AssetManifest.bin": "e5f77eef815d3a6110b81b64b7216443",
 "assets/AssetManifest.bin.json": "f1b9fb23df4bf1f741480b9a8108194a",
 "assets/AssetManifest.json": "a5494caf59042fac234846f1cf3c6535",
-"assets/assets/deviceProfiles/CAFE_8005.json": "60e47d8f3340ce5db6213a3bc4220e7a",
-"assets/assets/deviceProfiles/CAFE_8010.json": "28429d498e098daaa820d1bcc8d62358",
+"assets/assets/deviceProfiles/CAFE_8005.json": "f922770537540cc88ec947d08c27ede9",
+"assets/assets/deviceProfiles/CAFE_8010.json": "61573ae4dcd71dc98ecaebf42bc93a7f",
 "assets/assets/fonts/MiSans-Regular.ttf": "7a19b9504edc93c2d3c285804d1b0ca5",
 "assets/assets/fonts/OpenCherry-Regular.ttf": "bdc7f5967b218280a8c66940f3724f20",
 "assets/assets/images/logo_geteron.png": "d1c31278d5e54581132357c2876768ed",
@@ -35,9 +35,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "e5f77eef815d3a6110b81b64b7216443
 "icons/Icon-512.png": "8b154d5eece96babbc2028b6402b0d48",
 "icons/Icon-maskable-192.png": "373170ff478e955c0a920e4d573c7b1d",
 "icons/Icon-maskable-512.png": "8b154d5eece96babbc2028b6402b0d48",
-"index.html": "6faf8d99efd71ae4aa8273dc183e6a15",
-"/": "6faf8d99efd71ae4aa8273dc183e6a15",
-"main.dart.js": "fdb7349e08486ba4902c6e8de8c1fa5a",
+"index.html": "22ecf33770108a7f021ab7adad14f8d2",
+"/": "22ecf33770108a7f021ab7adad14f8d2",
+"main.dart.js": "2dd6948b9fcec4d2e4a5669163438a86",
 "manifest.json": "e16af379e1a1d517d4960b5c8aedb48b",
 "version.json": "8a1a5d2f8390c61ca4c2025b0869957e"};
 // The application shell files that are downloaded before a service worker can
